@@ -1,0 +1,78 @@
+/* class - element */
+
+body {
+    font-family: Arial;
+    background-color: lightblue;
+}
+
+
+div {
+    height: 100px;
+    width: 100%;
+    /* background: red; */
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    float: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.center {
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+#navigate1 {
+    font-size: 2em;
+    font-family: cursive;
+    border: 1px solid red;
+}
+
+.b1 {
+    background-color: white;
+    color: white;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    margin-left: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;      
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+
+.button1:hover {
+    background-color: #008CBA;
+    color: white;
+    transform: scale(1.125);
+}
+
+.left{
+    float: left;
+    margin: 5px;
+}
+
+.right{
+    float: right;
+    margin-right: 200px;
+    margin: 5px;
+}
+  
